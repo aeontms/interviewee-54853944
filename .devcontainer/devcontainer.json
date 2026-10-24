@@ -1,0 +1,6 @@
+{
+  "name": "todo-challenge",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "forwardPorts": [3000, 3030],
+  "postCreateCommand": "npm install --prefix api && npm install --prefix web"
+}
