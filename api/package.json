@@ -1,0 +1,23 @@
+{
+  "name": "todo-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.ts",
+    "start": "node src/server.ts",
+    "test": "vitest run",
+    "lint": "oxlint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@koa/router": "^13.1.0",
+    "koa": "^2.16.0",
+    "koa-bodyparser": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "oxlint": "^1.89.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.0"
+  }
+}
